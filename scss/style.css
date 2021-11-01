@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Teko:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Variables */
+h1 {
+  font-size: 3em;
+}
+
+/*404*/
+.cr7 {
+  background-image: url(../multimedia/fondo1.jpg);
+  background-position: right;
+  background-size: cover;
+}
+
+.cr7 p {
+  font-size: 200%;
+  color: white;
+  background-color: black;
+}
+
+/* HEADER */
+header nav {
+  font-size: 200%;
+}
+
+/* INICIO */
+.imagenFondo {
+  background-image: url(../multimedia/elbicho.jpg);
+  background-position: right;
+  background-size: cover;
+}
+
+.seccionPrimaria {
+  text-align: center;
+}
+
+.seccionPrimaria .seccion__h1 {
+  color: rgba(16, 2, 70, 0.925);
+  font-weight: bold;
+  font-size: 420%;
+  letter-spacing: 1.2px;
+  text-align: left;
+  font-family: 'Teko', sans-serif;
+}
+
+.news {
+  font-size: 150%;
+  font-family: 'Teko', sans-serif;
+}
+
+.news .news__video {
+  width: 30vw;
+}
+
+.news .news__h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 320%;
+  letter-spacing: 1.2px;
+  border: 1px solid gray;
+  margin: 1px;
+  padding: 10px;
+}
+
+.news h3 {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px;
+  padding: 5px;
+}
+
+.news div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.news div .news__P {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 130%;
+  background-color: #d6d6d6;
+}
+
+/* FORMULARIO */
+form {
+  color: #000016;
+  font-size: 300%;
+  margin: 15px;
+  padding: 5px;
+  border: 5px solid black;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #838383), color-stop(50%, #acacac), color-stop(74%, #b5b3b3));
+  background: linear-gradient(90deg, #838383 20%, #acacac 50%, #b5b3b3 74%);
+  -webkit-box-shadow: 7px 13px 37px #000;
+          box-shadow: 7px 13px 37px #000;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.boton:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+.boton:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+/* TALLES */
+table {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+table table {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+table table tr {
+  color: #3b3535;
+}
+
+table table tr th {
+  color: black;
+}
+
+h5 {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* MEDIA */
+@media (max-width: 600px) {
+  .imgBanner {
+    width: 75vw;
+  }
+  .noticiaP {
+    font-size: 110%;
+    background-color: #5c5a5a;
+  }
+  .navegacion li a {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .imgBanner {
+    width: 70vw;
+  }
+  .noticiaP {
+    font-size: 100%;
+    background-color: #5a3838;
+  }
+  .navegacion li a {
+    font-size: 60%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
